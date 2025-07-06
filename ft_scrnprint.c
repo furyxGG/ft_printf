@@ -6,7 +6,7 @@
 /*   By: fyagbasa <fyagbasa@student.42istanbul.com  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 18:01:03 by fyagbasa          #+#    #+#             */
-/*   Updated: 2025/07/03 15:26:39 by fyagbasa         ###   ########.fr       */
+/*   Updated: 2025/07/06 05:58:30 by fyagbasa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_printstr(char *str)
 		tot += write(1, &str[a], 1);
 		a++;
 	}
-	return (a);
+	return (tot);
 }
 
 int	ft_printchr(char c)
