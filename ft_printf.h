@@ -6,7 +6,7 @@
 /*   By: fyagbasa <fyagbasa@student.42istanbul.com  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/26 03:50:06 by fyagbasa          #+#    #+#             */
-/*   Updated: 2025/06/26 05:39:00 by fyagbasa         ###   ########.fr       */
+/*   Updated: 2025/07/03 15:27:01 by fyagbasa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@
 #  define NULL_LEN 6
 # endif
 
-# include <stdlib.h>
 # include <stdarg.h>
 # include <unistd.h>
 # include "libft/libft.h"

@@ -25,11 +25,11 @@ $(LIBFT):
 
 clean:
 	make -C $(LIBFTDIR) clean
-	rm -r $(OBJS)
+	rm -f $(OBJS)
 
 fclean: clean
 	make -C $(LIBFTDIR) fclean
-	rm -r $(NAME)
+	rm -f $(NAME)
 
 re: fclean all
 

@@ -6,7 +6,7 @@
 /*   By: fyagbasa <fyagbasa@student.42istanbul.com  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 17:46:38 by fyagbasa          #+#    #+#             */
-/*   Updated: 2025/06/26 04:10:09 by fyagbasa         ###   ########.fr       */
+/*   Updated: 2025/07/06 05:41:52 by fyagbasa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,8 @@ int	ft_printf(const char *format, ...)
 	total = 0;
 	while (format[a])
 	{
+		if (format[a] == '%' && !format[a + 1])
+			return (-1);
 		if (format[a] == '%')
 		{
 			total += ft_checkformat(&lst, format[a + 1]);
