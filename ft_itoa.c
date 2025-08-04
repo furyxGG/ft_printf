@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fyagbasa <fyagbasa@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: fyagbasa <fyagbasa@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/11 00:50:43 by fyagbasa          #+#    #+#             */
-/*   Updated: 2025/06/26 02:50:21 by fyagbasa         ###   ########.fr       */
+/*   Updated: 2025/08/05 02:08:37 by fyagbasa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
 static int	ft_basecount(int n)
 {

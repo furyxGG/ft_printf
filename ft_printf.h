@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fyagbasa <fyagbasa@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: fyagbasa <fyagbasa@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/26 03:50:06 by fyagbasa          #+#    #+#             */
-/*   Updated: 2025/07/03 15:27:01 by fyagbasa         ###   ########.fr       */
+/*   Updated: 2025/08/05 02:09:25 by fyagbasa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 
 # include <stdarg.h>
 # include <unistd.h>
-# include "libft/libft.h"
+# include <stdlib.h>
 
 int		ft_printf(const char *format, ...);
 int		ft_printstr(char *str);
@@ -36,6 +36,7 @@ int		ft_printptr(unsigned long long addr, int a);
 int		ft_printnum(int nbr, char c);
 char	*ft_uitoa(unsigned int nbr);
 int		ft_basenum(unsigned int nbr);
+char    *ft_itoa(int n);
 int		ft_printhex(unsigned int nbr, char c);
 
 #endif
